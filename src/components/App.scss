@@ -1,0 +1,54 @@
+.rapido {
+    display: block;
+    padding-top: 17px;
+
+    &__wrapper {
+        background-color: #fff;
+        padding: 14px 11px 24px;
+        border-radius: 3px;
+    }
+
+    &__headline {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        line-height: 22px;
+    }
+
+    &__magic {
+        cursor: pointer;
+        padding: 0;
+        border: none;
+        height: 20px;
+        width: 20px;
+        background-color: transparent;
+        background-image: url('../img/magic-wand.svg');
+    }
+
+    &__result {
+        display: block;
+        text-align: right;
+        color: rgba(0, 0, 0, .2);
+        font-size: 14px;
+        font-style: italic;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+.rapido-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+
+    &__btn {
+        padding: 13px 26px;
+        background-color: transparent;
+        border-radius: 40px;
+        border: 1px solid rgba(0, 0, 0, .16);
+        color: rgba(0, 0, 0, .64);
+    }
+}

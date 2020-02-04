@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("./roboto/Roboto-Light.ttf") format("truetype"),
+    url("./roboto/Roboto-Light.woff") format("woff"),
+    url("./roboto/Roboto-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("./roboto/Roboto-Regular.ttf") format("truetype"),
+    url("./roboto/Roboto-Regular.woff") format("woff"),
+    url("./roboto/Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

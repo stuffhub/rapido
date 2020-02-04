@@ -1,0 +1,26 @@
+.rapido-field {
+    margin-top: 12px;
+
+    &__headline {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    &__hint {
+        font-family: 'Roboto-Light', serif;
+        font-size: 14px;
+        margin-left: 8px;
+        line-height: 20px;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 8px;
+    }
+}

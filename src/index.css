@@ -1,0 +1,16 @@
+body {
+  font-family: "Roboto-Regular", sans-serif;
+  background: linear-gradient(180deg, #4568dc 0%, #b06ab3 100%), #ef8e48;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 320px;
+  /* max-width: 1140px; */
+}
